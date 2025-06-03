@@ -6,7 +6,8 @@ Este proyecto contiene los archivos de docker para levantar los microservicios e
 
 1. Clonar el repositorio
 2. Crear un .env basado een el .env.template
-3. Ejecutar el comando `docker compose up --build`
+3. ejecutar el siguiente comando `git submodule update --init --recursive` para reconstruir el submodulo
+4. Ejecutar el comando `docker compose up --build`
 
 
 ### Pasos para crear los Git Submodules
